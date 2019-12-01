@@ -29,6 +29,7 @@ FourKites provides the `Tracking Locations` API as a way to receive information 
 ## Contents
 - [Authentication](#authentication)
 - [Integrations](#integrations)
+	- [PHP](#php)
 
 ---
 
@@ -46,3 +47,14 @@ To know more about both authentication types, check the links below:
 Discover how to integrate to FourKites platform right from your popular framework or platform, and the tools we provide to enhance your FourKites experience.
 
 > The majority of the examples here were developed using the [Vanilla Software](https://en.wikipedia.org/wiki/Vanilla_software "Vanilla software - Wikipedia") concept (pure code) and are referred as `resources`, but a few other examples may be posted using other concepts, like [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming "Object-oriented programming - Wikipedia") for example.
+
+---
+
+### PHP
+**[` ⮭ back to top `](#)**
+
+* Resources
+    * [Tracking Locations](./PHP#Tracking-Locations) - Track a single location per request
+    * [Tracking Locations Batch](./PHP#Tracking-Locations-Batch) - Track multiple locations per request
+
+[Click here](./PHP) to go to the PHP page.
