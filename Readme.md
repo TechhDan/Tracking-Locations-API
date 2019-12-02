@@ -30,6 +30,7 @@ FourKites provides the `Tracking Locations` API as a way to receive information 
 - [Authentication](#authentication)
 - [Integrations](#integrations)
 	- [PHP](#php)
+    - [Python](#python)
 
 ---
 
@@ -58,3 +59,12 @@ Discover how to integrate to FourKites platform right from your popular framewor
     * [Tracking Locations Batch](./PHP#Tracking-Locations-Batch) - Track multiple locations per request
 
 [Click here](./PHP) to go to the PHP page.
+
+### Python
+**[` ⮭ back to top `](#)**
+
+* Resources
+    * [Tracking Locations](./Python#Tracking-Locations) - Track a single location per request
+    * [Tracking Locations Batch](./Python#Tracking-Locations-Batch) - Track multiple locations per request
+
+[Click here](./Python) to go to the Python page.
