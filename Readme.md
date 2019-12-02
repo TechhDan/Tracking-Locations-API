@@ -30,6 +30,7 @@ FourKites provides the `Tracking Locations` API as a way to receive information 
 - [Authentication](#authentication)
 - [Integrations](#integrations)
 	- [PHP](#php)
+	- [Postman](#postman)
     - [Python](#python)
     - [Ruby](#ruby)
 
@@ -60,6 +61,11 @@ Discover how to integrate to FourKites platform right from your popular framewor
     * [Tracking Locations Batch](./PHP#Tracking-Locations-Batch) - Track multiple locations per request
 
 [Click here](./PHP) to go to the PHP page.
+
+### Postman
+**[` ⮭ back to top `](#)**
+
+[Click here](./Postman) to go to the Postman page.
 
 ### Python
 **[` ⮭ back to top `](#)**

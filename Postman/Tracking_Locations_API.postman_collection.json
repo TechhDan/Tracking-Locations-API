@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "31273107-c67a-405e-a31a-c7aa49a2ba78",
+		"name": "Tracking Locations API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tracking Locations",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{email}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"shipper\": \"\",\n    \"billOfLading\": \"\",\n    \"tractorNumber\": \"\",\n    \"trailerNumber\": \"\",\n    \"latitude\": 0,\n    \"longitude\": 0,\n    \"locatedAt\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracking-api.fourkites.com/api/v1/tracking/locations",
+					"protocol": "https",
+					"host": [
+						"tracking-api",
+						"fourkites",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tracking",
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tracking Locations Batch",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{email}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"locations\": [\n    \t\n        {\n\t\t    \"shipper\": \"\",\n\t\t    \"billOfLading\": \"\",\n\t\t    \"tractorNumber\": \"\",\n\t\t    \"trailerNumber\": \"\",\n\t\t    \"latitude\": 0,\n\t\t    \"longitude\": 0,\n\t\t    \"locatedAt\": \"\"\n\t\t},\n\t\t\n\t\t{\n\t\t    \"shipper\": \"\",\n\t\t    \"billOfLading\": \"\",\n\t\t    \"tractorNumber\": \"\",\n\t\t    \"trailerNumber\": \"\",\n\t\t    \"latitude\": 0,\n\t\t    \"longitude\": 0,\n\t\t    \"locatedAt\": \"\"\n\t\t}\n\t\t\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://tracking-api.fourkites.com/api/v1/tracking/batch_locations",
+					"protocol": "https",
+					"host": [
+						"tracking-api",
+						"fourkites",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tracking",
+						"batch_locations"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e2b339c1-2a73-4c14-9d26-bed977d7e2c1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a92ec852-c6bd-44f5-9810-7a191bbda9a9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
