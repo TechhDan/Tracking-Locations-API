@@ -24,7 +24,7 @@
 </div>
 
 # Tracking Locations API
-FourKites provides the `Tracking Locations` API as a way to receive information about the vehicle which is transporting a load.
+FourKites provides the `Tracking Locations` API to receive information of one or more vehicles transporting a load, and information of its location.
 
 ## Contents
 - [Authentication](#authentication)
@@ -38,7 +38,7 @@ FourKites provides the `Tracking Locations` API as a way to receive information 
 
 ## Authentication
 FourKites offers two authentication methods for the APIs: `Basic` and `Digest`.
-Both of them can be used to authenticate the APIs and in the examples, we will be using `Basic` authentication by default due to its simplicity.
+Both of them can be used to authenticate the APIs, and in the examples, we will be using `Basic` authentication by default.
 
 To know more about both authentication types, check the links below:
  - **Basic**: [Wikipedia](https://en.wikipedia.org/wiki/Basic_access_authentication "Basic access authentication - Wikipedia") | [FourKites Knowledge Base](https://support.fourkites.com/hc/en-us/articles/115007778968-HTTP-Basic-Authentication "HTTP Basic Authentication")
@@ -47,9 +47,9 @@ To know more about both authentication types, check the links below:
 ---
 
 ## Integrations
-Discover how to integrate to FourKites platform right from your popular framework or platform, and the tools we provide to enhance your FourKites experience.
+Discover how to integrate to FourKites platform right from your popular framework or platform, checking the integration samples we made to enhance your FourKites experience.
 
-> The majority of the examples here were developed using the [Vanilla Software](https://en.wikipedia.org/wiki/Vanilla_software "Vanilla software - Wikipedia") concept (pure code) and are referred as `resources`, but a few other examples may be posted using other concepts, like [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming "Object-oriented programming - Wikipedia") for example.
+> The majority of the examples here are developed using the [Vanilla Software](https://en.wikipedia.org/wiki/Vanilla_software "Vanilla software - Wikipedia") concept (pure code) and are referred as `resources`, but a few other examples may be posted using other concepts, like [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming "Object-oriented programming - Wikipedia") for example.
 
 ---
 
@@ -60,12 +60,12 @@ Discover how to integrate to FourKites platform right from your popular framewor
     * [Tracking Locations](./PHP#Tracking-Locations) - Track a single location per request
     * [Tracking Locations Batch](./PHP#Tracking-Locations-Batch) - Track multiple locations per request
 
-[Click here](./PHP) to go to the PHP page.
+[Click here](./PHP) to go to PHP page.
 
 ### Postman
 **[` ⮭ back to top `](#)**
 
-[Click here](./Postman) to go to the Postman page.
+[Click here](./Postman) to go to Postman page.
 
 ### Python
 **[` ⮭ back to top `](#)**
@@ -74,7 +74,7 @@ Discover how to integrate to FourKites platform right from your popular framewor
     * [Tracking Locations](./Python#Tracking-Locations) - Track a single location per request
     * [Tracking Locations Batch](./Python#Tracking-Locations-Batch) - Track multiple locations per request
 
-[Click here](./Python) to go to the Python page.
+[Click here](./Python) to go to Python page.
 
 ### Ruby
 **[` ⮭ back to top `](#)**
@@ -83,4 +83,4 @@ Discover how to integrate to FourKites platform right from your popular framewor
     * [Tracking Locations](./Ruby#Tracking-Locations) - Track a single location per request
     * [Tracking Locations Batch](./Ruby#Tracking-Locations-Batch) - Track multiple locations per request
 
-[Click here](./Ruby) to go to the Ruby page.
+[Click here](./Ruby) to go to Ruby page.

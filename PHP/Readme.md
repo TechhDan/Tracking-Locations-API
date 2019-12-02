@@ -6,7 +6,7 @@
 PHP code for integration with FourKites API.
 
 ## Credentials
-Please, add your credentials to the array in order to be able to use the API.
+Please, add your credentials to use the API.
 
 ```php
 // Credentials
@@ -27,7 +27,7 @@ Use this option to send a single location update per request.
 // Location to be sent
 $content = [
     'shipper'       => '',  // An internal code to identify the shipper
-    'billOfLading'  => '',  // Load/shipment Number
+    'billOfLading'  => '',  // Load/shipment number
     'tractorNumber' => '',  // Truck plate
     'trailerNumber' => '',  // Trailer plate
     'latitude'      => 0,   // Latitude (decimal) e.g.: 60.16952
@@ -42,13 +42,13 @@ $content = [
 ---
 
 ## Tracking Locations Batch
-Use this option to send multiple locations updates at once. _(Limited to 50 locations per request)_
+Use this option to send multiple location updates at once. _(Limited to 50 locations per request)_
 
-Please, add each location information to the `$content['locations']` array.
+Please, add each new location information to the `$content['locations']` array.
 > Each location information can be added in this format:
 ```php
 [
-    'shipper'       => '',  // An internal code to identify the shipper
+    'shipper'       => '',  // Internal code to identify the shipper
     'billOfLading'  => '',  // Load/shipment Number
     'tractorNumber' => '',  // Truck plate
     'trailerNumber' => '',  // Trailer plate

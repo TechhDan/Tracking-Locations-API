@@ -47,9 +47,9 @@ Use this option to send a single location update per request.
 ---
 
 ## Tracking Locations Batch
-Use this option to send multiple locations updates at once. _(Limited to 50 locations per request)_
+Use this option to send multiple location updates at once. _(Limited to 50 locations per request)_
 
-Please, add each location information to the `content.locations` array.
+Please, add each new location information to the `content.locations` array.
 > Each location information can be added in this format:
 ```json
 {
@@ -78,13 +78,13 @@ A brief explanation of the fields that need to be sent.
 
 | Key | Description | Example |
 | --- | --- | --- |
-|`shipper`|The internal code to identify the shipper|124df|
-|`billOfLading`|The load/shipment lumber|423987672|
-|`tractorNumber`|The truck plate|ABC1234|
-|`trailerNumber`|The trailer plate|FKT2K20|
-|`latitude`|The Latitude in decimal format|60.16952|
-|`longitude`|The Longitude in decimal formal|24.93545|
-|`locatedAt`|The date and time formatted as YYYY-MM-DD HH:MM:SS|2020-01-25 17:30:43|
+|`shipper`|The internal code to identify the shipper|_124df_|
+|`billOfLading`|The load/shipment lumber|_423987672_|
+|`tractorNumber`|The truck plate|_ABC1234_|
+|`trailerNumber`|The trailer plate|_FKT2K20_|
+|`latitude`|The Latitude in decimal format|_60.16952_|
+|`longitude`|The Longitude in decimal formal|_24.93545_|
+|`locatedAt`|The date and time formatted as YYYY-MM-DD HH:MM:SS|_2020-01-25 17:30:43_|
 
 Additional information can be sent. Please, check FourKites documentation to 
 * [Tracking Locations](https://support.fourkites.com/hc/en-us/articles/115007622407-Tracking-Locations-Batch#TrackingLocations-Batch-REQUESTFORMAT "Request Format")
