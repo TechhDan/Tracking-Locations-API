@@ -9,7 +9,6 @@ Python code for integration with FourKites API.
 Please, add your credentials to the array in order to be able to use the API.
 
 ```python
-// Credentials
 # Credentials
 credentials = {
     'username'      : '',
