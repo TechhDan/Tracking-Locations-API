@@ -30,7 +30,7 @@ $response = curl_exec($curl);
 $status_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 curl_close($curl);
 
-
+// Do whatever you need at this point
 $response = json_decode($response);
 if($status_code != 200) {
     // Unsuccessful Response

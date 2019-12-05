@@ -32,6 +32,7 @@ request = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == 'https'
   http.request(request)
 end
 
+# Do whatever you need at this point
 response = JSON.parse(request.body)
 if request.code != '200'
     # Unsuccessful Response
