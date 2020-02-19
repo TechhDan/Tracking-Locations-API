@@ -1,0 +1,21 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"FourKites\\": "."
+    	}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FourKites\\Test\\": "Tests/"
+        }
+    },
+    "scripts": {
+    	"test": [
+    		"@php -d date.timezone=UTC ./vendor/bin/phpunit --configuration ./phpunit.xml --colors=always"
+    	]
+    }
+}

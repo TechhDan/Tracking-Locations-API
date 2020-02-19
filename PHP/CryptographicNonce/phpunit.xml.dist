@@ -1,0 +1,14 @@
+<phpunit
+	bootstrap="./vendor/autoload.php"
+	stopOnFailure="true"
+	cacheResult="false">
+	<testsuites>
+		<testsuite name="Full Test Suite">
+			<directory>Tests</directory>
+		</testsuite>
+	</testsuites>
+	<php>
+		<env name="CLIENT_ID" value="place-client-id-here" force="true" />
+		<env name="CLIENT_SECRET" value="place-client-secret-here" force="true" />
+	</php>
+</phpunit>

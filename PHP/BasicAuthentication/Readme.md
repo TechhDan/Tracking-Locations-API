@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="../assets/images/logos/languages/php.svg" width="180" alt="PHP">
+	<img src="../../assets/images/logos/languages/php.svg" width="180" alt="PHP">
 </div>
 
 # PHP Integration
